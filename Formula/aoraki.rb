@@ -6,22 +6,22 @@
 class Aoraki < Formula
   desc "Ship code to the Aoraki cloud from your terminal, by hand or by agent"
   homepage "https://sf-digital-labs.github.io/aoraki-cli/"
-  version "0.2.4"
+  version "0.2.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/SF-Digital-Labs/aoraki-cli/releases/download/v0.2.4/aoraki-aarch64-apple-darwin.tar.gz"
-      sha256 "9b1f21e61c499c68d87c5b692361355a8f87b9c0f2bad6e4bb8b4cbfdf0a3bd1"
+      url "https://github.com/SF-Digital-Labs/aoraki-cli/releases/download/v0.2.5/aoraki-aarch64-apple-darwin.tar.gz"
+      sha256 "48a5342b9578d61b1a6ba548c78bc83903f6f349d28f1453b050c9d190e53068"
     else
-      url "https://github.com/SF-Digital-Labs/aoraki-cli/releases/download/v0.2.4/aoraki-x86_64-apple-darwin.tar.gz"
-      sha256 "4029acc6b1cb4019ad31dc71e37492c42bb2256fab88832c29b73d85841ac4cb"
+      url "https://github.com/SF-Digital-Labs/aoraki-cli/releases/download/v0.2.5/aoraki-x86_64-apple-darwin.tar.gz"
+      sha256 "0608618eaa1db89b9db079c54ad259b5e4aa18ef9fc24a1ca4ba3eec6ef22cbb"
     end
   end
 
   on_linux do
-    url "https://github.com/SF-Digital-Labs/aoraki-cli/releases/download/v0.2.4/aoraki-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "97ccc4271a921cfc80cf2ee8c169427a06ad61038ecf0e94244ac87b40d29730"
+    url "https://github.com/SF-Digital-Labs/aoraki-cli/releases/download/v0.2.5/aoraki-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "21ccf8752b5b22496d456b80e2c4037bd33ebed51f6d58be44997d1ce940b211"
   end
 
   def install
